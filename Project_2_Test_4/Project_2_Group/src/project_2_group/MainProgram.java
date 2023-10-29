@@ -17,7 +17,7 @@ public class MainProgram {
     
      // Instances of Shop and ShoppingCart classes
     Shop product = new Shop();
-    //ShoppingCart cart = new ShoppingCart();
+    ShoppingCart cart = new ShoppingCart();
     
     
     public MainProgram(){

@@ -160,7 +160,7 @@ public class Login_Screen extends javax.swing.JFrame {
             if(loginResult.next()){
                 // If login is successful, show a message and open the Shop_Screen
                 JOptionPane.showMessageDialog(this, "Login successful!");
-                //new Shop_Screen().setVisible(true);
+                new Shop_Screen().setVisible(true);
                 this.setVisible(false);
             } else{
                 // If login fails, show an error message
